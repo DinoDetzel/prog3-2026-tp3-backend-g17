@@ -1,7 +1,73 @@
+
 [
     {
         "id": 1,
         "nombre": "Musculacion",
-        "descripcion": "Entrenamiento de fuerza y desarrollo muscular"
+        "descripcion": "Entrenamiento de fuerza y desarrollo muscular con maquinas y pesos libres."
+    },
+    {
+        "id": 2,
+        "nombre": "Cardio",
+        "descripcion": "Zona equipada con cintas, bicicletas y elipticas para mejorar la resistencia."
+    },
+    {
+        "id": 3,
+        "nombre": "Spinning",
+        "descripcion": "Clases grupales de ciclismo indoor con musica y ritmo intenso."
+    },
+    {
+        "id": 4,
+        "nombre": "Yoga",
+        "descripcion": "Clases de yoga para mejorar la flexibilidad, la postura y reducir el estres."
+    },
+    {
+        "id": 5,
+        "nombre": "Pilates",
+        "descripcion": "Ejercicios de bajo impacto enfocados en el core y la postura corporal."
+    },
+    {
+        "id": 6,
+        "nombre": "Crossfit",
+        "descripcion": "Entrenamiento funcional de alta intensidad con ejercicios variados."
+    },
+    {
+        "id": 7,
+        "nombre": "Boxeo",
+        "descripcion": "Clases de boxeo para mejorar la coordinacion, fuerza y resistencia."
+    },
+    {
+        "id": 8,
+        "nombre": "Natacion",
+        "descripcion": "Pileta climatizada con clases para todos los niveles."
+    },
+    {
+        "id": 9,
+        "nombre": "Zumba",
+        "descripcion": "Clases de baile fitness con ritmos latinos para quemar calorias divirtiendose."
+    },
+    {
+        "id": 10,
+        "nombre": "Entrenamiento Personal",
+        "descripcion": "Sesiones individuales con un entrenador dedicado a tus objetivos."
+    },
+    {
+        "id": 11,
+        "nombre": "Nutricion",
+        "descripcion": "Asesoramiento nutricional personalizado para complementar tu entrenamiento."
+    },
+    {
+        "id": 12,
+        "nombre": "Rehabilitacion",
+        "descripcion": "Programa de ejercicios terapeuticos para recuperacion de lesiones."
+    },
+    {
+        "id": 13,
+        "nombre": "Funcional",
+        "descripcion": "Entrenamiento con el peso del cuerpo y accesorios para mejorar el movimiento diario."
+    },
+    {
+        "id": 14,
+        "nombre": "Stretching",
+        "descripcion": "Clases de elongacion y flexibilidad para mejorar la movilidad articular."
     }
 ]

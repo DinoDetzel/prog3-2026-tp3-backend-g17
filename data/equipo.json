@@ -1,13 +1,16 @@
 [
     {
+        "id": 1,
         "nombre": "Joaquin Robles",
-        "rol": "Dueño"
+        "rol": "Dueno"
     },
     {
+        "id": 2,
         "nombre": "Guillermo Montes",
         "rol": "Personal trainer"
     },
     {
+        "id": 3,
         "nombre": "Luis Suarez",
         "rol": "Personal trainer"
     }

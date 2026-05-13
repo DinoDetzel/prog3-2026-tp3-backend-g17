@@ -3,23 +3,18 @@
         "id": 1,
         "nombre": "Dino",
         "mail": "dino@gmail.com",
+        "password": "1234",
         "fechaRegistro": "2026-05-12",
         "foto": "perfil1.jpg",
-        "ultimosPedidos": [
-            "Landing Page",
-            "SEO",
-            "Backend API"
-        ]
+        "ultimosPedidos": ["Landing Page", "SEO", "Backend API"]
     },
     {
         "id": 2,
         "nombre": "Juan",
         "mail": "juan@gmail.com",
+        "password": "1234",
         "fechaRegistro": "2026-04-20",
         "foto": "perfil2.jpg",
-        "ultimosPedidos": [
-            "Diseño UI",
-            "React App"
-        ]
+        "ultimosPedidos": ["Diseño UI", "React App"]
     }
 ]

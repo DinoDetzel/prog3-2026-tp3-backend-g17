@@ -124,5 +124,35 @@ app.get('/perfil/:id', async (req, res) => {
 
 });
 
+// POST LOGIN
+app.post('/login', async (req, res) => {
+
+    try {
+
+        const { mail, password } = req.body;
+
+        const data = await fs.readFile('./data/perfil.json', 'utf-8');
+
+        const perfiles = JSON.parse(data);
+
+        const usuario = perfiles.find(p => p.mail === mail && p.password === password);
+
+        if (!usuario) {
+            return res.status(401).json({ mensaje: 'Mail o password incorrectos' });
+        }
+
+        res.json({ mensaje: 'Login exitoso', usuario });
+
+    } catch (error) {
+
+        res.status(500).json({ mensaje: 'Error al iniciar sesion' });
+
+    }
+
+});
+
+
+module.exports = app;
+
 
 module.exports = app;
