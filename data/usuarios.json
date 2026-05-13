@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "nombre": "Juan Rodriguez",
+        "email": "juan@gmail.com",
+        "password": "1234",
+        "foto": "https://i.imgur.com/6VBx3io.png"
+    },
+
+    {
+        "id": 2,
+        "nombre": "Maria Lopez",
+        "email": "maria@gmail.com",
+        "password": "abcd",
+        "foto": "https://i.imgur.com/6VBx3io.png"
+    }
+]
