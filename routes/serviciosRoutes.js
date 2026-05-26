@@ -1,14 +1,14 @@
 const express = require('express');
 const router = express.Router();
-
+const serviciosController = require('../controllers/serviciosController');
 // GET todos los servicios
 router.get('/', (req, res) => {
-    res.json({ message: 'GET bbnnnbbnbn servicios' });
+    serviciosController.obtenerServicios(req, res);
 });
 
 // GET servicio por ID
 router.get('/:id', (req, res) => {
-    res.json({ message: `GET servicio ${req.params.id}` });
+    serviciosController.obtenerServiciosId(req, res);
 });
 
 module.exports = router;
