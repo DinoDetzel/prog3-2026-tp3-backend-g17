@@ -22,6 +22,7 @@ class Server {
     routes() {
         this.app.use('/equipo', require('../routes/equipoRoutes'))
         this.app.use('/servicios', require('../routes/serviciosRoutes'))
+        this.app.use('/perfil', require('../routes/perfilRoutes'))
         //manejo de errores
         this.app.use((req, res, next) => {
             return res.status(400).json({ msg: 'Error. Ruta no encontrada.' })

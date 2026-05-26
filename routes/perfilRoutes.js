@@ -1,25 +1,24 @@
 const express = require('express');
 const router = express.Router();
-const serviciosController = require('../controllers/serviciosController');
+const perfilController = require('../controllers/perfilControllers');
 // GET todos los servicios
 router.get('/', (req, res) => {
     try {
-        serviciosController.obtenerServicios(req, res);
+        perfilController.obtenerPerfil(req, res);
 
     } catch (error) {
         res.status(500).json({
-            mensaje: 'Error al leer servicios'
+            mensaje: 'Error al leer perfil'
         });
     }
 });
 
-// GET servicio por ID
 router.get('/:id', (req, res) => {
     try {
-        serviciosController.obtenerServiciosId(req, res);
+        perfilController.obtenerPerfilId(req, res);
     } catch (error) {
         res.status(500).json({
-            mensaje: 'Error al leer servicios'
+            mensaje: 'Error al leer perfil'
         });
     }
 });
