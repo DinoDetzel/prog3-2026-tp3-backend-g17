@@ -1,7 +1,9 @@
+const Server = require('./models/server');
+const app = new Server();
+app.listen();
 const express = require('express');
 const cors = require('cors');
 const fs = require('fs/promises');
-
 const app = express();
 
 app.use(cors());
