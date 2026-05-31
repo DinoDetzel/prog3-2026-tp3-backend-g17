@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node models/server.js",
-    "dev": "nodemon models/server.js"
+    "dev": "nodemon models/server.js",
+    "prepare": "husky",
+    "test": ""
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +17,10 @@
     "express": "^5.2.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "eslint": "^10.4.0",
+    "eslint-config-prettier": "^10.1.8",
+    "husky": "^9.1.7",
+    "nodemon": "^3.1.14",
+    "standard": "^17.1.2"
   }
 }

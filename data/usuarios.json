@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "nombre": "Juan Rodriguez",
+        "email": "juan@gmail.com",
+        "password": "1234",
+        "foto": "https://i.imgur.com/6VBx3io.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Maria Lopez",
+        "email": "maria@gmail.com",
+        "password": "abcd",
+        "foto": "https://i.imgur.com/6VBx3io.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Silvio Soldan",
+        "email": "a@a.com",
+        "password": "123",
+        "foto": "https://i.imgur.com/6VBx3io.png"
+    },
+    {
+        "id": 4,
+        "nombre": "juan manuel",
+        "email": "asdasd@gmail.com",
+        "password": "1234",
+        "foto": ""
+    },
+    {
+        "id": 5,
+        "nombre": "juana manuela",
+        "email": "juana@gmail.com",
+        "password": "anita",
+        "foto": ""
+    },
+    {
+        "id": 6,
+        "nombre": "Andi",
+        "email": "andi@gmail.com",
+        "password": "123456",
+        "foto": ""
+    }
+]
