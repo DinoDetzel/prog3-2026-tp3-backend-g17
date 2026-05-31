@@ -18,11 +18,14 @@ class Server {
     }
     middleware() {
         this.app.use(cors());
+        this.app.use(express.json());
     }
     routes() {
         this.app.use('/equipo', require('../routes/equipoRoutes'))
         this.app.use('/servicios', require('../routes/serviciosRoutes'))
         this.app.use('/perfil', require('../routes/perfilRoutes'))
+        this.app.use('/login', require('../routes/loginRoutes'))
+        this.app.use('/register', require('../routes/registerRoutes'))
         //manejo de errores
         this.app.use((req, res, next) => {
             return res.status(400).json({ msg: 'Error. Ruta no encontrada.' })

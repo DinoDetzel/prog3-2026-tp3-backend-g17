@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const perfilController = require('../controllers/perfilControllers');
+const perfilController = require('../controllers/perfilController');
 // GET todos los servicios
 router.get('/', (req, res) => {
     try {
