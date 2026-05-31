@@ -1,7 +1,23 @@
 [
     {
         "id": 1,
-        "nombre": "Musculacion",
-        "descripcion": "Entrenamiento de fuerza y desarrollo muscular"
+        "nombre": "Musculación",
+        "descripcion": "Accedé a nuestra sala equipada con máquinas modernas para entrenar fuerza y resistencia.",
+        "precio": "$50.000 / mes",
+        "img": "../assets/img/musculacion.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Entrenamiento Funcional",
+        "descripcion": "Clases dinámicas para mejorar tu rendimiento físico general con ejercicios variados.",
+        "precio": "$60.000 / mes",
+        "img": "../assets/img/funcional.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Personal Trainer",
+        "descripcion": "Entrenamiento personalizado con seguimiento profesional para alcanzar tus objetivos.",
+        "precio": "$80.000 / mes",
+        "img": "../assets/img/personal.png"
     }
 ]
