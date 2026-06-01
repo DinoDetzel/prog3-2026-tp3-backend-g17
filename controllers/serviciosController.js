@@ -11,16 +11,13 @@ const obtenerServiciosId = (req, res) => {
         return res.status(400).json({ message: 'El id debe ser un número' });
     }
 
-    let mensaje = 'Obteniendo servicio con id ' + id;
-    const data = serviciosData.forEach(servicio => {
-        if (servicio.id === id) {
-            return res.json({ message: `Obteniendo servicio con id ${id}`, data: servicio });
-        }
-    });
+    const servicio = serviciosData.find(servicio => servicio.id === id);
 
-    if (!data) {
+    if (!servicio) {
         return res.status(404).json({ message: `Servicio con id ${id} no encontrado` });
     }
+
+    return res.json({ message: `Obteniendo servicio con id ${id}`, data: servicio });
 };
 
 module.exports = {
