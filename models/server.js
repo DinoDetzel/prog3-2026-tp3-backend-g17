@@ -1,10 +1,3 @@
-//const app = require('../app');
-
-// const PORT = 3000;
-
-// app.listen(PORT, () => {
-//     console.log(`Servidor corriendo en puerto ${PORT}`);
-// });
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
@@ -26,18 +19,11 @@ class Server {
         this.app.use('/perfil', require('../routes/perfilRoutes'))
         this.app.use('/login', require('../routes/loginRoutes'))
         this.app.use('/register', require('../routes/registerRoutes'))
-        //manejo de errores
-        this.app.use((req, res, next) => {
+        this.app.use((req, res) => {
             return res.status(400).json({ msg: 'Error. Ruta no encontrada.' })
         })
         this.app.use((err, req, res, next) => {
             console.error(err.stack);
-            next()
-            return res.status(404).json({ msg: 'Error. Pagina no encontrada.' })
-        })
-        this.app.use((err, req, res, next) => {
-            console.error(err.stack);
-            next()
             return res.status(500).json({ msg: 'Error. Error interno del servidor.' })
         })
 

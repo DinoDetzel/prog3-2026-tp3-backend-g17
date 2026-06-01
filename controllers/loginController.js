@@ -1,4 +1,3 @@
-const perfilData = require('../data/perfil.json');
 const userData = require('../data/usuarios.json');
 
 const login = (req, res) => {

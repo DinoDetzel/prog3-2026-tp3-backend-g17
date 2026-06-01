@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "API TP3",
-  "main": "server.js",
+  "main": "models/server.js",
   "scripts": {
     "start": "node models/server.js",
     "dev": "nodemon models/server.js",
